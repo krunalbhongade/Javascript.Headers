@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript string function</title>
+</head>
+<body>
+    <script>
+        // first occurence of sub-string
+        var str = "This is a string";
+        console.log(str);
+
+        // last occurence of sub-string
+        var position = str.indexOf ('is');
+        console.log(position);
+
+        // substring it can take -ve values too
+        substr = str.slice(1,7);
+        console.log(substr)
+
+       // substring it didn't take -ve values 
+        substr1 = str.substring(1,7);
+        console.log(substr1)
+
+        // var replaced = str.replace('string','Krunal');
+        // console.log(str)
+        // console.log(replaced)
+
+        console.log(str.toUpperCase());
+        console.log(str.toLowerCase());
+
+        // var newstring = str.concat('New String')
+        // console.log(newstring)
+
+         var strwithwhitespaces = "     this contains         white spaces"     ;
+         console.log(strwithwhitespaces)
+         console.log(strwithwhitespaces.trim())
+
+         var char2 = str.charAt(2);
+         console.log(char2)
+
+         var char2 = str.charCodeAt(2);
+         console.log(char2)
+        
+    </script>
+</body>
+</html>
